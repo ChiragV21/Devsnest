@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+}
+
+#contentLeft{
+    width: 30%;
+    box-shadow: -1px 4px 20px -5px rgba(0,0,0,0.8);
+}
+
+#contentRight{
+    width: 70%;
+    margin-left:15px;
+}
+
+#image{
+    width: 100%;
+    height: 350px;
+    opacity: 0.9;
+}
+
+#Left-1{
+    position: relative;
+}
+
+#name{
+    position: absolute;
+    bottom: 0px;
+    color:black;
+    margin: 5px;
+}
+
+#Left-2{
+    margin: 5px;
+    margin-top: 5px;
+}
+
+i,.icon{
+    color: #26534f;
+    margin-right: 10px;
+}
+
+h3,h3{
+    margin-top: 10px;
+}
+
+#left-3{
+    margin: 5px;
+    margin-top: 5px;
+}
+
+#left-4{
+    margin: 5px;
+}
+
+#Right-1{
+    margin: 5px;
+    margin-top: 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid black;
+    text-align: left;
+    padding: 6px;
+}
+
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+
+#Right-2{
+    margin-top: 12px;
+    font-size: 20px;
+}
+
+#Right-3{
+    margin-top: 20px;
+}
+
+ul{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#Right-1,#Right-2,#Right-3,#Right-4{
+    padding: 16px;
+    box-shadow: -1px 4px 20px -5px rgba(0,0,0,0.8);
+}
+
+#footer{
+    padding: 6px;
+    text-decoration: none;
+    display: flex;
+    margin-top: 8px;
+    flex-direction: column;
+    text-align:center;
+    background-color:rgb(124, 188, 241);
+    overflow: hidden;
+    color: white;
+}
+
+#Right-4{
+    margin-top: 20px;
+}
+
+#Right-4 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer a:hover,#demo_1{
+    background-color:white;
+    color: black;
+    padding: 8px;
+    transition: 2s;
+    border-radius: 8px;
+}
+@media screen and (max-width:640px)
+{
+    #content{
+        flex-direction: column;
+    }
+    
+    #contentLeft{
+        width: 100%;
+    }
+
+    #contentRight{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    #Right-2{
+        font-size: 10px;
+    }
+
+    i,.icon{
+        margin-right: 10px;
+    }
+
+}
+
+

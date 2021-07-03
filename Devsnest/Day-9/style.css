@@ -1,0 +1,40 @@
+body{
+    background-color:#b4f2e1;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+table{
+    border: 1px solid black;
+    padding: 8px;
+    background-color:teal;
+}
+.check{
+    background-color:green;
+}
+.cols{
+    height: 100px;
+    width: 250px; 
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.cols:hover{
+    background-color:rgb(238, 88, 88);
+}
+.seat{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    width:400px;
+    margin: auto;
+    top: 50px;
+    color: white;
+    background-color: #e4a137;
+    border-radius: 10px;
+}
