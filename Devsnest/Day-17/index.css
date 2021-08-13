@@ -1,0 +1,30 @@
+body{
+    max-width: 500px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.content {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: yellowgreen;
+    padding: 8px;
+    margin-top: 20px;
+  }
+
+  .container {
+    padding: 8px;
+    padding-left: 30px;
+  }
+    
+  h1{
+      text-align: justify;
+  }
+
+  .newCard{
+    height: 600px;
+    margin-top: 40px;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+  }
+  
