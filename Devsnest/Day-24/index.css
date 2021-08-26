@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(177, 247, 250);
+}
+.nav{
+    background-color: black;
+    overflow: hidden;
+}
+
+.active_link{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+button{
+    padding: 12px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
